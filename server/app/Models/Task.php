@@ -9,6 +9,5 @@ class Task extends Model
 {
     use HasFactory;
 
-    // Retira as colunas created_at e updated_at como padrão do DB
     public $timestamps = false;
 }
